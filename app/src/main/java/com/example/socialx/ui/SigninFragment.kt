@@ -166,10 +166,12 @@ class SigninFragment : Fragment() {
         var password: String = binding.editPassSignIn.text.toString()
         if (email.isBlank()) {
             showToast(id = R.string.enter_email_first)
+            binding.editEmailSignIN.requestFocus()
             return
         }
         if (password.isBlank()) {
             showToast(id = R.string.enter_password_first)
+            binding.editPassSignIn.requestFocus()
             return
         }
         if (password.length < 6) {
