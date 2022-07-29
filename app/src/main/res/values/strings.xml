@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">SocialX</string>
+    <string name="txt_login">LOGIN</string>
+    <string name="text_signup">SIGN UP</string>
+    <string name="api_key">868a0d325e124aec83e4b0e16eb8749b</string>
+    <string name="no_internet_connection">No Internet Connection</string>
+    <string name="country">in</string>
+    <string name="some_error_occurred">Some Error Occurred \nPlease Try Again Later</string>
+    <string name="search_in_feed">Search in feed</string>
+    <string name="sign_in_account">SignIn into your</string>
+    <string name="register_text">Create an Account</string>
+    <string name="email_hint">johndoe@gmail.com</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot Password ?</string>
+    <string name="login_with">Login with</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="register_now">Register Now</string>
+    <string name="authentication_failed">Authentication failed.</string>
+    <string name="enter_email_first">Please Enter Your Email</string>
+    <string name="enter_password_first">Please Enter Your Password</string>
+    <string name="signed_in_successfully">Signed In Successfully</string>
+    <string name="password_length">Password must be atleast 6 characters</string>
+    <string name="enter_name_first">Please Enter You Name</string>
+    <string name="account_created_successfully">Account Created Successfully</string>
+    <string name="valid_mobile_number">Please Enter A Valid Mobile Number</string>
+    <string name="terms_policies">Please Accept Our Terms and Policies</string>
+    <string name="name_hint">John doe</string>
+    <string name="number_hint">7991806610</string>
+    <string name="web_client_id">156202362675-506b2uvsuuqmur5kucbh0qe59fg1vgq4.apps.googleusercontent.com</string>
+    <string name="facebook_app_id">854039272225399</string>
+    <string name="fb_login_protocol_scheme">fb854039272225399</string>
+    <string name="facebook_client_token">268412ebe64b9d80dc4860ba1ee4b1b8</string>
+    <string name="reset_password_link">A Reset Password Link Has Benn Sent To Entered Email Address</string>
+    <string name="pleas_login_to_continue">Please Login To Continue</string>
+</resources>

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "156202362675",
+    "project_id": "socialx-bd32a",
+    "storage_bucket": "socialx-bd32a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:156202362675:android:f27f1e47ddd62af5380046",
+        "android_client_info": {
+          "package_name": "com.example.socialx"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "156202362675-7db8njdg1oof0dtba3sb2ogkfomj8m2c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.socialx",
+            "certificate_hash": "c02a467d3efa8bd9841b89d61269c314a7b1ab5c"
+          }
+        },
+        {
+          "client_id": "156202362675-506b2uvsuuqmur5kucbh0qe59fg1vgq4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDmbOPRIWofdDu6j_b1Ahz-H_M-QqtR3mM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "156202362675-506b2uvsuuqmur5kucbh0qe59fg1vgq4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

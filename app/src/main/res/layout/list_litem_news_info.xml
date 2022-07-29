@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_marginTop="@dimen/dimen_16dp"
+    app:cardElevation="@dimen/dimen_12dp"
+    app:cardCornerRadius="@dimen/dimen_8dp"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:padding="@dimen/dimen_16dp"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/time"
+                android:layout_width="wrap_content"
+                tools:text="2 hours ago"
+                android:textSize="12sp"
+                android:layout_height="wrap_content"></TextView>
+            <TextView
+                android:id="@+id/source"
+                android:layout_width="wrap_content"
+                tools:text="BBC News"
+                android:layout_toRightOf="@id/time"
+                android:textSize="12sp"
+                android:maxLines="1"
+                android:layout_marginStart="@dimen/dimen_8dp"
+                android:layout_height="wrap_content"></TextView>
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/time"
+                android:layout_marginTop="@dimen/dimen_16dp"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:textColor="@color/color_008ae6"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                tools:text="Post Politics Now: 'No surprise' that the economy is slowing, country on 'right path,' Biden says - The Washington Post"></TextView>
+
+            <TextView
+                android:id="@+id/description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/title"
+                android:layout_marginTop="@dimen/dimen_12dp"
+                android:ellipsize="end"
+                android:maxLines="3"
+                android:textColor="@color/color_008ae6"
+                android:textSize="12sp"
+                tools:text="Post Politics Now: 'No surprise' that the economy is slowing, country on 'right path,' Biden says - The Washington Post"></TextView>
+        </RelativeLayout>
+        <ImageView
+            android:id="@+id/image"
+            android:layout_gravity="center_vertical"
+            android:layout_width="70dp"
+            tools:src="@color/black"
+            android:scaleType="fitXY"
+            android:layout_marginStart="@dimen/dimen_16dp"
+            android:layout_height="70dp"></ImageView>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
