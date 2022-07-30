@@ -14,9 +14,11 @@ A news app  where you can see the top headlines of the news around the world.
 
 
 ## Demo
-
+- Demo
 https://drive.google.com/file/d/1B_P66jAvpRR20CrAtGrHaSgUyVrBZj3s/view?usp=sharing
 
+- Full Functionality
+https://drive.google.com/file/d/1zC18UHN4GlBntjoek62gGzYb3fmWSkfS/view?usp=sharing
 
 
 ## Tech Stack
