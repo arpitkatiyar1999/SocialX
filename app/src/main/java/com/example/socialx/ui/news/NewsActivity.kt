@@ -1,4 +1,4 @@
-package com.example.socialx.ui
+package com.example.socialx.ui.news
 
 import android.content.Intent
 import android.os.Bundle
@@ -18,16 +18,15 @@ import com.example.socialx.databinding.ActivityHomeBinding
 import com.example.socialx.models.Article
 import com.example.socialx.models.NetworkUtil
 import com.example.socialx.models.NewsResponseData
+import com.example.socialx.ui.login.MainActivity
 import com.google.android.material.snackbar.Snackbar
 import com.google.firebase.auth.FirebaseAuth
-import com.google.firebase.auth.ktx.auth
-import com.google.firebase.ktx.Firebase
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
 
 
-class HomeActivity : AppCompatActivity() {
+class NewsActivity : AppCompatActivity() {
     private lateinit var binding:ActivityHomeBinding
     private var articleList:ArrayList<Article> =ArrayList()
     private var apiInterface: ApiInterface? = null
@@ -118,7 +117,7 @@ class HomeActivity : AppCompatActivity() {
         builder.setMessage("Are you sure you want to logout from the app")
         builder.setPositiveButton("Yes") { _, _ ->
             FirebaseAuth.getInstance().signOut()
-            startActivity(Intent(this,MainActivity::class.java))
+            startActivity(Intent(this, MainActivity::class.java))
             Toast.makeText(applicationContext,"Logged Out Successfully",Toast.LENGTH_SHORT).show()
             finish()
         }

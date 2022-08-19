@@ -4,8 +4,8 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import androidx.lifecycle.Lifecycle
 import androidx.viewpager2.adapter.FragmentStateAdapter
-import com.example.socialx.ui.SigninFragment
-import com.example.socialx.ui.SignupFragment
+import com.example.socialx.ui.login.SigninFragment
+import com.example.socialx.ui.login.SignupFragment
 
 class ViewPagerAdapter( fragmentManager:FragmentManager, lifecycle:Lifecycle) : FragmentStateAdapter(fragmentManager, lifecycle) {
     private val itemCount=2

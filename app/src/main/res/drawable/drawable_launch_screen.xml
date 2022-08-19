@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:opacity="opaque">
+    <item android:drawable="@color/red"/>
+
+    <item
+        android:gravity="center"
+        android:drawable="@drawable/ic_socialx">
+    </item>
+    <item android:bottom="52dp"
+        android:gravity="bottom|center_horizontal"
+        android:drawable="@drawable/ic_made_in_india">
+    </item>
+</layer-list>

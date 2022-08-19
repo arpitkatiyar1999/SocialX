@@ -7,11 +7,11 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="red">#FE0000</color>
+    <color name="red">#008ae6</color>
     <color name="gray">#C4BDC0</color>
-    <color name="dark_red">#B83C39</color>
+    <color name="dark_red">#008ae6</color>
     <color name="gray_shade_1">#A9A9A9</color>
-    <color name="red_shade_1">#D93C3D</color>
+    <color name="red_shade_1">#008ae6</color>
     <color name="gray_shade_2">#8c8c8c</color>
     <color name="color_008ae6">#008ae6</color>
     <color name="color_005c996">#005c99</color>

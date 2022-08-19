@@ -1,7 +1,6 @@
-package com.example.socialx.ui
+package com.example.socialx.ui.login
 
 import android.content.Intent
-import android.icu.lang.UCharacter.GraphemeClusterBreak.L
 import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
@@ -9,12 +8,7 @@ import androidx.viewpager2.widget.ViewPager2.OnPageChangeCallback
 import com.example.socialx.R
 import com.example.socialx.adapters.ViewPagerAdapter
 import com.example.socialx.databinding.ActivityMainBinding
-import com.facebook.CallbackManager.Factory.create
-import com.facebook.FacebookCallback
-import com.facebook.FacebookException
-import com.facebook.login.LoginManager
-import com.facebook.login.LoginResult
-import com.google.android.gms.auth.api.identity.BeginSignInRequest
+import com.example.socialx.ui.news.NewsActivity
 import com.google.android.gms.auth.api.identity.Identity
 import com.google.android.gms.common.api.ApiException
 import com.google.android.material.tabs.TabLayout
@@ -98,7 +92,7 @@ class MainActivity : AppCompatActivity() {
                                         .addOnCompleteListener(this) { task ->
                                             if (task.isSuccessful) {
                                                 Toast.makeText(applicationContext,resources.getString(R.string.signed_in_successfully), Toast.LENGTH_SHORT).show()
-                                                startActivity(Intent(this,HomeActivity::class.java))
+                                                startActivity(Intent(this, NewsActivity::class.java))
                                             } else {
                                                 // If sign in fails, display a message to the user.
 //                                                Log.w(TAG, "signInWithCredential:failure", task.exception)
