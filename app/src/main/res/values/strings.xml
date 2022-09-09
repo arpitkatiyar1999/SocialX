@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">SocialX</string>
+    <string name="app_name">Daily News</string>
     <string name="txt_login">LOGIN</string>
     <string name="text_signup">SIGN UP</string>
     <string name="api_key">868a0d325e124aec83e4b0e16eb8749b</string>
@@ -32,4 +32,6 @@
     <string name="facebook_client_token">268412ebe64b9d80dc4860ba1ee4b1b8</string>
     <string name="reset_password_link">A Reset Password Link Has Benn Sent To Entered Email Address</string>
     <string name="pleas_login_to_continue">Please Login To Continue</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
